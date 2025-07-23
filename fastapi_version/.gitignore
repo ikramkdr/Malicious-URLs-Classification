@@ -1,0 +1,15 @@
+# Ignore model artifacts
+mlp_model.pt
+rf_model.pkl
+scaler.pkl
+
+# Ignore generated data
+test_urls.txt
+data/features_dataset.csv
+
+# Ignore generated charts
+static/*.png
+
+# Python cache
+__pycache__/
+*.pyc
