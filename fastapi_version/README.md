@@ -1,4 +1,4 @@
-# Malicious URL Detection Web App
+# 🟡Malicious URL Detection Web App
 
 This project is a lightweight and interactive FastAPI web application for detecting malicious URLs using two machine learning models:
 
