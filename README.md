@@ -1,4 +1,4 @@
-# Malicious URL Classification Project
+🟠 # Malicious URL Classification Project
 
 This repository contains **two implementations** of a malicious URL classifier:
 
