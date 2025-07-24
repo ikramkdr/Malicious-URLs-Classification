@@ -1,4 +1,4 @@
-# Malicious URLs Classification
+# 🟢Malicious URLs Classification
 
 This project aims to classify URLs as **benign** or **malicious** (including phishing, defacement, and malware) using classic Machine Learning models.
 
