@@ -55,7 +55,7 @@ The following features were extracted from raw URLs:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Authors
 
 - **Yousra Houacine**
