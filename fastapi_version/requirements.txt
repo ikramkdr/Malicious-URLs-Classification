@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+jinja2
+torch
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
