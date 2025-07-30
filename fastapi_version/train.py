@@ -105,11 +105,11 @@ axes[1].set_ylabel("True")
 plt.tight_layout()
 plt.savefig("confusion_matrices.png")
 plt.close()
-print("📊 Confusion matrices saved as confusion_matrices.png")
+print(" Confusion matrices saved as confusion_matrices.png")
 
 # 100 random URLs
 sampled_urls = random.sample(list(urls_test), min(100, len(urls_test)))
 with open("test_urls.txt", "w", encoding="utf-8") as f:
     for url in sampled_urls:
         f.write(url + "\n")
-print("📁 100 Random URLs for testing saved to test_urls.txt")
+print(" 100 Random URLs for testing saved to test_urls.txt")
