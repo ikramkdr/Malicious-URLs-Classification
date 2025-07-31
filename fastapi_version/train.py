@@ -30,11 +30,13 @@ joblib.dump(scaler, "scaler.pkl")
 
 # Split train/test
 X_train, X_test, y_train, y_test, urls_train, urls_test = train_test_split(
-    X_scaled, y, urls, test_size=0.2, random_state=42
+    X_scaled, y, urls, test_size=0.2, random_state=42, stratify=y
+
 )
 X_train_raw, X_test_raw, _, _, _, _ = train_test_split(
-    X_raw, y, urls, test_size=0.2, random_state=42
-)
+    X_raw, y, urls, test_size=0.2, random_state=42 , stratify=y 
+) 
+
 
 # MLP training
 X_train_tensor = torch.tensor(X_train, dtype=torch.float32)
