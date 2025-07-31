@@ -69,7 +69,7 @@ def predict(
         label = (
             f"Model used: {'MLP ' if model_choice == 'mlp' else 'Random Forest '}<br>"
             f"<strong>This url has a known benign domain:</strong> {url_to_analyze}<br>"
-            f"Final decision: Benign ✅ (whitelist)"
+            f"Final decision: Benign (whitelist)"
         )
         img_filename = None
     else:
